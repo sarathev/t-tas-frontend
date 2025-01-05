@@ -1,0 +1,35 @@
+/* Search Bar */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 0px 0px 0px 20px;
+  width: 40%;
+  height: 48px; 
+}
+
+.search-bar-input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.search-icon {
+  cursor: pointer;
+  color: #1976d2;
+}
+
+.search-icon-container {
+  background-color: #1976d2; /* Blue background */
+  height: 100%;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-icon {
+  color: white; /* White icon color */
+}
+
